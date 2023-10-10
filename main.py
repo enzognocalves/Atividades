@@ -1,16 +1,14 @@
-from Pessoa import Pessoa
+from Cachorro import Cachorro
+from Gato import Gato
 
-#criar obijetos -> instancia da classe
-P1 = Pessoa ( 'Roberto',58)
-P2 = Pessoa ('Pricila',45)
+c1 = Cachorro("Chopp" , "rottweiler")
+g1 = Gato ("Get","Cinza")
 
-P1. comer ('melancia')
-P2. comer ('maca')
+c1.emitirsom()
+g1.emitirsom()
 
-P1. falar('futebol')
-P2.falar('volei')
 
-P1.pararFala ()
-P2. pararFalar()
+c1. buscar()
+g1. arranhar()
 
 
